@@ -122,7 +122,17 @@ barh() 함수 사용. 이때 막대의 두께는 hight 매개변수. x축, y축 
 ```
 
 ```
-여기에 코드를 작성해주세요!
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+plt.plot(x, y, marker='o')
+
+
+plt.title("Linear Trend")    
+plt.xlabel("X values")     
+plt.ylabel("Y values")        
 ```
 
 
